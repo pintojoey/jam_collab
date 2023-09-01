@@ -469,6 +469,8 @@
 			dependencies = (
 			);
 			name = OpenCollab;
+			packageProductDependencies = (
+			);
 			productName = CollabOpenSource;
 			productReference = DFFA0A1F27AB8B0200DD73EA /* OpenCollab.app */;
 			productType = "com.apple.product-type.application";
@@ -499,7 +501,6 @@
 			);
 			mainGroup = DFFA0A1627AB8B0200DD73EA;
 			packageReferences = (
-				DFFA0A3F27ACB8B200DD73EA /* XCRemoteSwiftPackageReference "BrightFutures" */,
 			);
 			productRefGroup = DFFA0A2027AB8B0200DD73EA /* Products */;
 			projectDirPath = "";
@@ -820,7 +821,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9AJ9Q4SDA6;
+				DEVELOPMENT_TEAM = 3FGHCDT97P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenCollab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OpenCollab;
@@ -860,7 +861,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9AJ9Q4SDA6;
+				DEVELOPMENT_TEAM = 3FGHCDT97P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenCollab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OpenCollab;
@@ -911,17 +912,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		DFFA0A3F27ACB8B200DD73EA /* XCRemoteSwiftPackageReference "BrightFutures" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Thomvis/BrightFutures";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = DFFA0A1727AB8B0200DD73EA /* Project object */;
 }
